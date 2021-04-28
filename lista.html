@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7310d7edd5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Literatura</h2>
+    <div>
+        <button class="accordion"><i class="fas fa-plus"></i>Osnove web programiranja</button>
+        <div class="panel">
+            <ul>
+                <li><a href="javascript:changeImage('img/html.jpg')" >Bruce Lawson, Introducing HTML5</a></li>
+                <li><a href="javascript:changeImage('img/css.jpg')">David Sawyer McFarland, CSS the missing manual</a></li>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fas fa-plus"></i>Skriptni programski jezici</button>
+        <div class="panel">
+            <ul>
+                <li><a href="javascript:changeImage('img/javaBook.jpg')" >Douglas Crokkofrd, Javascript: The Good Parts</a></li>
+                <li><a href="javascript:changeImage('img/javaBook2.jpg')">Marijing Haverbeke, Eloquent Javascript</a></li>
+            </ul>
+        </div>
+        <button class="accordion"><i class="fas fa-plus"></i>Web programiranje na strani poslužitelja</button>
+        <div class="panel">
+            <ul>
+                <li><a href="javascript:changeImage('img/php.jpg')" >Alexander Clyde, Introduction to PHP</a></li>
+            </ul>
+        </div>
+        <div class="imageHolder" id="div"><img id="imgHolder"></div>
+    </div>
+    <script src="js/lista.js"></script>
+</body>
+</html>
